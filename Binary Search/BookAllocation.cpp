@@ -2,7 +2,7 @@
 #include<vector>
 using namespace std;
 
-bool isValid(vector<int>&nums, int n , int m, int maxallowedbooks){  // maxallowedbooks ==> mid
+bool isValid(vector<int>&nums,int m, int maxallowedbooks){  // maxallowedbooks ==> mid
     int students =1, books=0;
 
     for(int i=0; i<nums.size(); i++){
@@ -30,9 +30,9 @@ int BookAllocation(vector<int>&nums, int m){
         sum += nums[i];
     }
     int st=0, end=sum, ans =-1;
-    while(st<end){
+    while(st<=end){
         int mid = st + (end-st)/2;
-        if(isValid(nums, n, m, mid)){
+        if(isValid(nums, m, mid)){
             ans=mid;
             end = mid -1;
         } else{
