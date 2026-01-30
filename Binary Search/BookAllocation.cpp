@@ -30,7 +30,7 @@ int BookAllocation(vector<int>&nums, int m){
     for(int i =0; i<n; i++){
         sum += nums[i];
     }                                                   // can also use st as max(nums) for range coz that will be the minimum starting range if a student got only one book
-    int st=*max(nums.begin(),nums.end()), end=sum, ans =-1;         // st from 0 to end = sum eg 10 (1-10)range of max subarray 
+    int st=*max(nums.begin(),nums.end()), end=sum, ans =-1;         // st from i of max ele to end = sum eg 10 (1-10)range of max subarray 
     while(st<=end){
         int mid = st + (end-st)/2;
         if(isValid(nums, m, mid)){
