@@ -6,10 +6,10 @@ bool isValid(vector<int>&nums,int m, int maxallowedbooks){  // maxallowedbooks =
     int students =1, books=0;
 
     for(int i=0; i<nums.size(); i++){
-        if(nums[i]>maxallowedbooks){
+        if(nums[i]>maxallowedbooks){          //edge case 
             return false;
         }
-        if(books+nums[i]<=maxallowedbooks){
+        if(books+nums[i]<=maxallowedbooks){    // checking if books can fit in to same student or Greedily assign as many books as possible to the current student without exceeding the assumed limit.
             books += nums[i];
         }
         else{
@@ -17,24 +17,24 @@ bool isValid(vector<int>&nums,int m, int maxallowedbooks){  // maxallowedbooks =
             books = nums[i];
         }
     }
-    return students> m ? false : true;
+    return students> m ? false : true;    // m is allowedstudents 
 }
 
 int BookAllocation(vector<int>&nums, int m){
     int n= nums.size();
-    if(m>n){
+    if(m>n){              //edge case
         return -1;
     }
-    int sum=0;
+    int sum=0;                                          
     for(int i =0; i<n; i++){
         sum += nums[i];
-    }
-    int st=0, end=sum, ans =-1;
+    }                                                   // can also use st as max(nums) for range coz that will be the minimum starting range if a student got only one book
+    int st=0, end=sum, ans =-1;                         // st from 0 to end = sum eg 10 (1-10)range of max subarray 
     while(st<=end){
         int mid = st + (end-st)/2;
         if(isValid(nums, m, mid)){
             ans=mid;
-            end = mid -1;
+            end = mid -1;                                  //{1,2,3,4,5} mid is 3 we need smallest largest books in this so if mid is true(valid) then we need smaller than mid thats why going left mid -1
         } else{
             st = mid +1;
         }
