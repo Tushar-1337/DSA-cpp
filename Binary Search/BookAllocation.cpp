@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include <algorithm>
 using namespace std;
 
 bool isValid(vector<int>&nums,int m, int maxallowedbooks){  // maxallowedbooks ==> mid
@@ -29,7 +30,7 @@ int BookAllocation(vector<int>&nums, int m){
     for(int i =0; i<n; i++){
         sum += nums[i];
     }                                                   // can also use st as max(nums) for range coz that will be the minimum starting range if a student got only one book
-    int st=0, end=sum, ans =-1;                         // st from 0 to end = sum eg 10 (1-10)range of max subarray 
+    int st=*max(nums.begin(),nums.end()), end=sum, ans =-1;         // st from 0 to end = sum eg 10 (1-10)range of max subarray 
     while(st<=end){
         int mid = st + (end-st)/2;
         if(isValid(nums, m, mid)){
@@ -43,7 +44,7 @@ int BookAllocation(vector<int>&nums, int m){
 }
 
 int main(){
-    vector<int>arr= {7,2,5,10,8};
+    vector<int>arr= {40,30,10,20};
     int k = 2;
     int n = arr.size();
 
