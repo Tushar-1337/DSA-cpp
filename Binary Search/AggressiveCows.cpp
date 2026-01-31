@@ -7,17 +7,14 @@ bool isValid(vector<int>&nums, int minAllowedDist, int c){   //minAllowedDist ==
     int LastPossiblePosi=nums[0], cows=1;
 
     for(int i=1;i<nums.size();i++){
-        if(nums[i]-LastPossiblePosi>=minAllowedDist){
+        if(nums[i]-LastPossiblePosi>=minAllowedDist){      //Assume a minimum distance = mid , Ask: Can I place all cows with at least this distance?
         cows++;
         LastPossiblePosi = nums[i];
         }
-        
         }
         return cows==c ? true : false;
 }
     
-   
-
 int AggressiveCows(vector<int>&nums, int c, int N){
     if(N<c){
         return -1;
