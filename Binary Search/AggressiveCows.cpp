@@ -12,7 +12,7 @@ bool isValid(vector<int>&nums, int minAllowedDist, int c){   //minAllowedDist ==
         LastPossiblePosi = nums[i];
         }
         }
-        return cows==c ? true : false;
+        return cows>=c ? true : false;
 }
     
 int AggressiveCows(vector<int>&nums, int c, int N){
