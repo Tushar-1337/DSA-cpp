@@ -24,7 +24,7 @@ int AggressiveCows(vector<int>&nums, int c, int N){
     int st= 1; // dist range cannot start form zero min dist between 2 cow should be 1
     int n= nums.size();
     
-    int end= nums[n-1]-nums[0];
+    int end= nums[n-1]-nums[0];                // dist = max posi - st posi
 
     int ans= -1;
 
