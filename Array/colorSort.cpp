@@ -23,5 +23,13 @@ void SortColors(vector<int>&nums){
 
 
 int main(){
+
+    vector<int>nums= {2,0,2,1,1,0};
+
+    SortColors(nums);
+
+    for(int x : nums){
+        cout<<x<<" ";
+    }
     return 0;
 }
