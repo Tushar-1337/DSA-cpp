@@ -9,13 +9,13 @@ void SortColors(vector<int>&nums){
     int mid =0, high=n-1, low=0;                // mid to high is our unsorted array
 
     while(mid<=high){
-        if(nums[mid]==0){
-            swap(nums[mid],nums[low]);
+        if(nums[mid]==0){       // for zeros range
+            swap(nums[mid],nums[low]);      // if mid is zero we swap mid and low coz lows range is for 1s low to mid -1
             mid++; low++;
-        } else if(nums[mid]==1){
+        } else if(nums[mid]==1){          //for 1s range 
             mid++;
-        } else{
-            swap(nums[mid],nums[high]);
+        } else{        // nums[mid]==2
+            swap(nums[mid],nums[high]);        //mid can be a random value here 
             high--;
         }
     }
