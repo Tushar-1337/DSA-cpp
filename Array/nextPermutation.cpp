@@ -34,5 +34,11 @@ void nextPermutation(vector<int>&nums){
     }
 }
 int main(){
+    vector<int>nums = {1,2,3,6,5,4};
+    nextPermutation(nums);
+
+    for(int x : nums){
+        cout << x << " ";
+    }
     return 0;
 }
