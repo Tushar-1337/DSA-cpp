@@ -10,16 +10,16 @@
 using namespace std;
 
 vector<int> SetMissmatch(vector<int>&nums){
-    int duplicate=-1, missing =-1;
+    int duplicate=-1, missing =-1;          //the logic here is that nums [i] are in pattern with index (array ==> 1,2,3,4 ) (idx==> 0,1,2,3) idx are nums[i]-1;
 
     for(int i=0; i<nums.size();i++){
-        int idx= abs(nums[i])-1;
+        int idx= abs(nums[i])-1;     // abs is absolute value (positive value);
 
         if(nums[idx]>0){
-            nums[idx]=-nums[idx];
+            nums[idx]=-nums[idx];     // filping the sign of array {-1,-2,2,-3};
         }
         else{
-            duplicate = abs(nums[i]);
+            duplicate = abs(nums[i]);  
         }
     }
     //missing
