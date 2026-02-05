@@ -26,7 +26,7 @@ vector<int> SetMissmatch(vector<int>&nums){
     int i=0;
     while(i<nums.size()){
         if(nums[i]>0){
-            missing = i+1;
+            missing = i+1;     // *IMP relation nums are in relation with i as que said nums are [1 n] so they are nums[i] - 1 on i ==> nums[0]-1 ==> 1-1=0  got idx 0  so i+1 is 1
             break;
         }
         i++;
