@@ -16,7 +16,7 @@ vector<int> SetMissmatch(vector<int>&nums){
         int idx= abs(nums[i])-1;     // abs is absolute value (positive value);
 
         if(nums[idx]>0){
-            nums[idx]=-nums[idx];     // filping the sign of array {-1,-2,2,-3};
+            nums[idx]=-nums[idx];     // filping the sign of array {-1,-2,2,-3};     *IMP if number is negative it is visited 
         }
         else{
             duplicate = abs(nums[i]);  
