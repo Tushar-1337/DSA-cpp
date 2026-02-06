@@ -24,3 +24,5 @@ double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2){
 }
 
 // Time Complexity ==> insert O(m+n) m is size of nums1 n is size of nums2 sorting O(log m+n) total [(m+n) log m+n ]
+
+//Optimal Solution==> O(log m+n) by Binary Search
