@@ -6,18 +6,18 @@ using namespace std;
 double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2){
     vector<int>ans = nums1;
 
-    ans.insert(ans.end(),nums2,begin(),nums2.end());
+    ans.insert(ans.end(),nums2.begin(),nums2.end());
     sort(ans.begin(),ans.end());
     int n = ans.size();
 
-    float median =0;
+    double median =0;
     //for odd
     if(n%2==1){
         median = ans[n/2];
         return median;
     }
     else{ // for even 1,2,3,4    for even median is avg of two middle nos.
-        median = (ans[n/2-1]+ans[n/2])/2;   // (n/2)-1 ==> thi opperation will done by precedence
+        median = (ans[n/2-1]+ans[n/2])/2.0;   // (n/2)-1 ==> thi opperation will done by precedence // dividin by 2.0 so it wont do integer div ==> int answer
         return median;
     }
     
