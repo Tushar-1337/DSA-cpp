@@ -1,9 +1,7 @@
 #include<iostream>
 #include<vector>
 #include<algorithm>
-#include<list>
-#include<stack>
-#include<queue>
+
 using namespace std;
 
 double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2){
