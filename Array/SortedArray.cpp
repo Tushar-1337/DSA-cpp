@@ -63,5 +63,6 @@ int main(){
 
     vector<int>ans= searchRange(nums,target);
     cout<<ans[0]<<" "<<ans[1];
+    
     return 0;
 }
