@@ -11,7 +11,7 @@ void SortColors(vector<int>&nums){
     while(mid<=high){
         if(nums[mid]==0){       // for zeros range
             swap(nums[mid],nums[low]);      // if mid is zero we swap mid and low coz lows range is for 1s low to mid -1
-            mid++; low++;
+             mid++;low++;
         } else if(nums[mid]==1){          //for 1s range 
             mid++;
         } else{        // nums[mid]==2
