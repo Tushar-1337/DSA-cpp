@@ -9,7 +9,7 @@ string revstring(string s){
     return s;
 }
 
-bool isAlphaNumeric(char ch){              
+bool isAlphaNumeric(char ch){             // isalnum STL no need to write this    
     if((ch>='0' && ch<='9') || (tolower(ch)>='a' && tolower(ch)<='z')) return true;   // tolower is used to lower the uppercase letters
     else return false;
 }
@@ -22,7 +22,7 @@ bool isPalindrome(string s){
         if(!isAlphaNumeric(s[st])) {
             st++; continue;              // continue in while loop skips the other conditions and moves to next iterator // if dont want to use it use if else and else
         }
-        if(!isAlphaNumeric(s[end])){
+        if(!isAlphaNumeric(s[end])){          // isalnum STL 
             end--; continue;
         }
         if (tolower(s[st]) != tolower(s[end])){
