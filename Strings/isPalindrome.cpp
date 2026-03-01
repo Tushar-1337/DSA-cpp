@@ -50,3 +50,5 @@ int main(){
 
     return 0;
 }
+
+// what is palindrome : it is palindrome if we reverse a word or sentence it will be same as oricginal eg. madam ==> madam
