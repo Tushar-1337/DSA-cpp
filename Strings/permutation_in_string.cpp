@@ -34,6 +34,10 @@ bool checkInClusion(string s1,string s2){
 }
 
 int main(){
+    string s1 = "ab";
+    string s2 = "eidbaooo";
+
+    cout<<checkInClusion(s1,s2);
 
     return 0;
 }
