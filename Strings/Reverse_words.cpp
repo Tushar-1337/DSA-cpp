@@ -15,7 +15,10 @@ string ReverseWords(string str){
             word += str[i];
             i++;
         }
-        ans += " "+word;
+        reverse(word.begin(), word.end());
+        if ( word.length()>0 ){
+            ans += " "+word;
+        }  
     }
     return ans.substr(1);
 }
@@ -27,7 +30,6 @@ int main(){
 
     cout<<ReverseWords(s1) << endl;
     cout<<ReverseWords(s2) <<endl;
-    
 
     return 0;
 }
