@@ -37,3 +37,7 @@ int main(){
     cout<<compress(chars)<<endl;  // return the new length of the array.
     return 0;
 }
+
+/* Approach : need to retun new length , so travese the char array,  used second loop to stored the count of same character not stored in fact i overwite it in 
+   char array with idx variable  and used to_string fun to convert int val into char val  and resized the chars vector with chars.resize(idx)
+   so it will return the compressed vec chararter*/
