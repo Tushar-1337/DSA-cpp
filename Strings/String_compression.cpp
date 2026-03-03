@@ -34,6 +34,6 @@ int compress(vector<char> &chars){
 int main(){
     vector<char> chars = {'a','a','b','b','c','c','c'};
 
-    cout<<compress(chars)<<endl;  
+    cout<<compress(chars)<<endl;  // return the new length of the array.
     return 0;
 }
