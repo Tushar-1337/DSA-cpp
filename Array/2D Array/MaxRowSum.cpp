@@ -3,7 +3,7 @@
 using namespace std;
 
 int MaxRowSum( int mat[][3], int rows, int cols){
-    int maxCount=INT_MIN;      // used INT_MIN coz if matrix has -ve nos. it will still points to highest +ve 
+    int maxCount=INT_MIN;      // used INT_MIN coz if matrix has -ve nos. it will still points to +ve as maximum
     for(int i=0; i<rows; i++){
         int count = 0;
 
