@@ -7,7 +7,7 @@ int singlenumber(vector<int> &nums){
     int ans = 0;
 
     for( int x : nums){
-        ans ^= x ;
+        ans ^= x ;            // XOR a^a = 0 , a^0 = a
     }
     return ans;
 } 
