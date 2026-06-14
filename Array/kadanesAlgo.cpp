@@ -21,7 +21,7 @@ void Subarray(int arr[], int size){
 }}
 int main(){
     int arr[]={-2,1,-3,4,-1,2,1,-5,4};
-    int size=5;
+    int size=9;
 Subarray(arr,size);
 
 cout<<"maxsum = "<<MaxSum<<endl;
