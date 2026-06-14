@@ -17,7 +17,7 @@ int majorele(vector<int>nums){
         } else { 
             freq--;
         }
-    }
+    }                                                   //first loop is of moores algo and second is just a verification step
     int count = 0;
     for(int val : nums){
         if(ans==val){
