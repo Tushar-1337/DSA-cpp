@@ -12,7 +12,7 @@ vector<vector<int>> threeSum (vector<int> nums){
     
     for(int i=0; i<n; i++){
         for(int j=i+1; j<n; j++){
-            for(int k=j+1; k<n; k++){                                    // TC = O (n^3 log unique triplets)
+            for(int k=j+1; k<n; k++){                                    // TC = O (n^3 log unique triplets)  // insert TC -> log n
                 int sum = nums[i]+nums[j]+nums[k];
 
                 if(sum==0){
