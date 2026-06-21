@@ -29,3 +29,5 @@ More topics will be added as I progress.
 
 **Tushar Baviskar**  
 GitHub: [Tushar-1337](https://github.com/Tushar-1337)
+LinkedIn: [Tushar Baviskar](https://www.linkedin.com/in/tushar-baviskar-885239322/)
+LeetCode: [Tushar1337](https://leetcode.com/u/Tushar0177/)
