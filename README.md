@@ -28,6 +28,6 @@ More topics will be added as I progress.
 ##  Author
 
 **Tushar Baviskar**  
-GitHub: [Tushar-1337](https://github.com/Tushar-1337)
-LinkedIn: [Tushar Baviskar](https://www.linkedin.com/in/tushar-baviskar-885239322/)
+GitHub: [Tushar-1337](https://github.com/Tushar-1337)<br>
+LinkedIn: [Tushar Baviskar](https://www.linkedin.com/in/tushar-baviskar-885239322/)<br>
 LeetCode: [Tushar1337](https://leetcode.com/u/Tushar0177/)
