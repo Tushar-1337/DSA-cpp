@@ -31,3 +31,18 @@ More topics will be added as I progress.
 GitHub: [Tushar-1337](https://github.com/Tushar-1337)<br>
 LinkedIn: [Tushar Baviskar](https://www.linkedin.com/in/tushar-baviskar-885239322/)<br>
 LeetCode: [Tushar1337](https://leetcode.com/u/Tushar0177/)
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Tushar-1337/DSA-cpp/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+## Two Pointers
+|  |
+| ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Tushar-1337/DSA-cpp/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+## Binary Search
+|  |
+| ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Tushar-1337/DSA-cpp/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+<!---LeetCode Topics End-->
