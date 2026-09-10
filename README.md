@@ -40,9 +40,14 @@ LeetCode: [Tushar1337](https://leetcode.com/u/Tushar0177/)
 ## Two Pointers
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/Tushar-1337/DSA-cpp/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Tushar-1337/DSA-cpp/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## Binary Search
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Tushar-1337/DSA-cpp/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+## String
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/Tushar-1337/DSA-cpp/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
