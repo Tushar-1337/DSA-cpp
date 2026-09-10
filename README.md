@@ -36,10 +36,12 @@ LeetCode: [Tushar1337](https://leetcode.com/u/Tushar0177/)
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Tushar-1337/DSA-cpp/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Tushar-1337/DSA-cpp/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Tushar-1337/DSA-cpp/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0125-valid-palindrome](https://github.com/Tushar-1337/DSA-cpp/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Tushar-1337/DSA-cpp/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## Binary Search
