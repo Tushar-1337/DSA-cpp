@@ -20,3 +20,5 @@ public:
         return true;
     }
 };
+
+//where i got stuck : i revise the concept of continue (skip current iteration and start the next one & It does NOT reach this: if (!isalnum(s[j])) )
